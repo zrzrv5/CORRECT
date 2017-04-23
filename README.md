@@ -8,8 +8,10 @@
 ## 函数/Functions
 
 - **[corRead( )](docs/corRead.md)** 读取`.cor`文件
-- **[meanOfCircle( )](docs/meanOfCircle.md)** 计算一圈数据均值
-- **[meanOfCircleAtPoint( )](docs/meanOfCircleAtPoint.md)** 计算一圈中某点均值
+- **[meanOfCircle( )](docs/meanOfCircle.md)** 计算一圈数据均值.
+- **[meanOfCircleAtPoint( )](docs/meanOfCircleAtPoint.md)** 计算一圈中某点均值.
 
-- **[getnByLevich( )](docs/getnByLevich.md)** 利用Koutecký-Levich方程斜率计算转移电子数
+- **[getnByLevich( )](docs/getnByLevich.md)** 利用Koutecký-Levich方程斜率计算转移电子数.
+
+- **[plotCircle( )](docs/plotCircle.md)** 将不同圈数数据画在同一张图中,并以渐变着色.
 
