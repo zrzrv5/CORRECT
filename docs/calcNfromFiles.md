@@ -5,7 +5,7 @@
 - 使用
 
 ```
-[ n,handler ] = calcNfromFiles( filenames,omegaArray,vArray,displayResult )
+[ n,handler ] = calcNfromFiles( filenames,omegaArray,vArray,KLargs,displayResult )
 ```
 
 - 说明
@@ -13,7 +13,8 @@
     - `filenames` : 文件名cell数组 **注意** 应使用`{}`而非`[]`
     - `omegaArray` : ω数组,应与filenames相符
     - `vArray` : 电压范围
-    - `displayResult` : 是否显示计算过程与结果.可省略,当电压过多时建议省略.
+    - `KLargs` : Koutecký-Levich方程中有关参数数组.详情参见[calcNbyLevich](docs/calcNbyLevich.md)
+    - `displayResult` : 是否显示计算过程与结果.可省略,当电压范围过多时建议省略.
 
     ---
     
@@ -41,11 +42,21 @@
     rpm = [400,625,900,1225,1600,2025];
     omega = rpm * 2 * pi;
     ```
+    指定参数
+    
+    ```matlab
+    dKLargs = [0.201,(0.25^2)*pi,1.2*10^(-6),1.9*10^(-5),0.01];
+    %由于使用rpm而非rps,r需取0.201
+    %电极半径为0.25cm
+    %浓度
+    %扩散系数
+    %黏滞率
+    ```
     
     计算并绘图
     
     ```
-calcNfromFiles(files,omega,linspace(-1,-0.0,1000));    
+calcNfromFiles(files,omega,linspace(-1,-0.0,1000),dKLargs);    
     ```
     
     
