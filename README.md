@@ -27,7 +27,7 @@
 
 #### 计算电子转移数
 - **[calcNbyLevich( )](docs/calcNbyLevich.md)** 利用Koutecký-Levich方程斜率计算转移电子数.
-- **[calcNbyjw()](docs/calcNbyjw.md)**利用最小二乘法拟合1/j~ω^-0.5 的斜率然后利用[calcNbyLevich( )](docs/calcNbyLevich.md)计算转移电子数.
+- **[calcNbyjw( )](docs/calcNbyjw.md)**利用最小二乘法拟合1/j~ω^-0.5 的斜率然后利用[calcNbyLevich( )](docs/calcNbyLevich.md)计算转移电子数.
 - **[calcNfromFiles( )](docs/calcNfromFiles.md)** 由不同转速下测得的多个`.cor`文件计算电子转移数.
 
 
