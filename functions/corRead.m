@@ -1,7 +1,7 @@
 function [ Data ] = corRead(filePath,dataFormat,column,verbose)
-%corRead  è¯»å–coræ–‡ä»¶
-%   filePath:æ–‡ä»¶åœ°å€;dataFormat:è¡Œæ•°æ®æ ¼å¼;column:è¡Œæ•°æ®åˆ—æ•°;verbose:å¯çœç•¥.
-%   filePath:æ–‡ä»¶åœ°å€;dataFormat:è¡Œæ•°æ®æ ¼å¼;column:è¡Œæ•°æ®åˆ—æ•°;verbose:å¯çœç•¥.
+%corRead  ¶ÁÈ¡corÎÄ¼ş
+%   filePath:ÎÄ¼şµØÖ·;dataFormat:ĞĞÊı¾İ¸ñÊ½;column:ĞĞÊı¾İÁĞÊı;verbose:¿ÉÊ¡ÂÔ.
+%   filePath:ÎÄ¼şµØÖ·;dataFormat:ĞĞÊı¾İ¸ñÊ½;column:ĞĞÊı¾İÁĞÊı;verbose:¿ÉÊ¡ÂÔ.
 
 
     if nargin == 3

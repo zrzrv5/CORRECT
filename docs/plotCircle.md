@@ -47,5 +47,5 @@ plotCircle(data);
 ```
 
 结果如图:
-### ![img](imgs/fig_plotCircle_1.png)
+![img](imgs/fig_plotCircle_1.png)
 

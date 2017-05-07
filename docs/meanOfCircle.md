@@ -6,7 +6,7 @@
 
 
 ```
-[ meanY,tx ] = meanOfCircle( circleData,xIndex,yIndex )
+[ meanY,tx ] = meanOfCircle( circleData,xIndex,yIndex,xRange )
 ```
 
 - 说明
@@ -14,6 +14,7 @@
     - `circleData` : 一圈的数据,即`corRead.circleN`
     - `xIndex` : 横轴物理量在`circleData`中的所在列数
     - `yIndex` : 纵轴物理量在`circleData`中的所在列数
+    - `xRange` : 指定插值范围,可省略.
 
     
     ===
