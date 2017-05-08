@@ -2,7 +2,7 @@ function [ n ] = calcNbyLevich( K,r,A,C,D,nu )
 %getnByLevich 利用Koutecky-Levich方程斜率计算转移电子数
 %   [ n ] = calcNbyLevich( K,r,A,C,D,nu )
 %   K: i^-1 = K*w^(-0.5) + B 中的斜率
-%   r: 比例系数,当转速为rps时用0.61,rpm时用0.201
+%   r: 比例系数,当转速为rad/s时用0.61,rpm时用0.201
 %   A: 电极面积
 %   C: 浓度
 %   D: 扩散系数  
